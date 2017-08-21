@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "IAPManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 应用启动之后 检测是否有 购买凭证尚未与后端验证的
+    [IAPManager checkIfLocalReceiptsNotValided:^(IAPResultCode code, id info) {}];
+    
     return YES;
 }
 

@@ -13,6 +13,9 @@
 		A022A9921F4AE814008F5DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A022A9901F4AE814008F5DF5 /* Main.storyboard */; };
 		A022A9941F4AE814008F5DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A022A9931F4AE814008F5DF5 /* Assets.xcassets */; };
 		A022A9971F4AE814008F5DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A022A9951F4AE814008F5DF5 /* LaunchScreen.storyboard */; };
+		A022A9A41F4AE841008F5DF5 /* IAPLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A022A99F1F4AE841008F5DF5 /* IAPLoadingView.xib */; };
+		A022A9A51F4AE841008F5DF5 /* IAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A022A9A11F4AE841008F5DF5 /* IAPManager.m */; };
+		A022A9A61F4AE841008F5DF5 /* IAPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A022A9A31F4AE841008F5DF5 /* IAPTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		A022A9931F4AE814008F5DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A022A9961F4AE814008F5DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A022A9981F4AE814008F5DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A022A99F1F4AE841008F5DF5 /* IAPLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IAPLoadingView.xib; sourceTree = "<group>"; };
+		A022A9A01F4AE841008F5DF5 /* IAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPManager.h; sourceTree = "<group>"; };
+		A022A9A11F4AE841008F5DF5 /* IAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPManager.m; sourceTree = "<group>"; };
+		A022A9A21F4AE841008F5DF5 /* IAPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPTools.h; sourceTree = "<group>"; };
+		A022A9A31F4AE841008F5DF5 /* IAPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		A022A9861F4AE814008F5DF5 /* IAPManager */ = {
 			isa = PBXGroup;
 			children = (
+				A022A99E1F4AE841008F5DF5 /* Classes */,
 				A022A98A1F4AE814008F5DF5 /* AppDelegate.h */,
 				A022A98B1F4AE814008F5DF5 /* AppDelegate.m */,
 				A022A98D1F4AE814008F5DF5 /* ViewController.h */,
@@ -77,6 +86,18 @@
 				A022A9881F4AE814008F5DF5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A022A99E1F4AE841008F5DF5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A022A99F1F4AE841008F5DF5 /* IAPLoadingView.xib */,
+				A022A9A01F4AE841008F5DF5 /* IAPManager.h */,
+				A022A9A11F4AE841008F5DF5 /* IAPManager.m */,
+				A022A9A21F4AE841008F5DF5 /* IAPTools.h */,
+				A022A9A31F4AE841008F5DF5 /* IAPTools.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +161,7 @@
 			files = (
 				A022A9971F4AE814008F5DF5 /* LaunchScreen.storyboard in Resources */,
 				A022A9941F4AE814008F5DF5 /* Assets.xcassets in Resources */,
+				A022A9A41F4AE841008F5DF5 /* IAPLoadingView.xib in Resources */,
 				A022A9921F4AE814008F5DF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A022A9A51F4AE841008F5DF5 /* IAPManager.m in Sources */,
+				A022A9A61F4AE841008F5DF5 /* IAPTools.m in Sources */,
 				A022A98F1F4AE814008F5DF5 /* ViewController.m in Sources */,
 				A022A98C1F4AE814008F5DF5 /* AppDelegate.m in Sources */,
 				A022A9891F4AE814008F5DF5 /* main.m in Sources */,
