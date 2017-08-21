@@ -1,9 +1,9 @@
 //
 //  IAPManager.h
-//  ZhaJinHuaIos
+//  IAPManager
 //
 //  Created by Meonardo on 2017/8/18.
-//  Copyright © 2017年 egret. All rights reserved.
+//  Copyright © 2017年 Meonardo. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
